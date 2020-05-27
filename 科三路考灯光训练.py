@@ -19,7 +19,6 @@ TiMu_List={'1请开启前照灯':1,
 DaAn_List={1:'近光灯',2:'远光灯',3:'远近交替',4:'示廓灯和危险警报灯'}
 
 def Random_Timu():
-    #timu=random.choice(TiMu_List)
     timu=random.choice(list(TiMu_List))
     return timu
 
